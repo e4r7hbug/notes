@@ -62,6 +62,8 @@ root@salt:~# service salt-master restart
 ```
 
 ### `top.sls`
+http://docs.saltstack.com/en/latest/ref/states/top.html
+
 The directory you defined in `file_roots` is where you would want to put your `top.sls` file. By default, Salt looks for this file based on the path you specified for the `environment`. In this case, we're going to be working in `/srv/salt`, the default commented location provided in the `/etc/salt/master` configuration file.
 
 ```bash
