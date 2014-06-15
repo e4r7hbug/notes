@@ -83,7 +83,7 @@ base:
 
 * `base` is the name of your `environment`, this must match your `/etc/salt/master` configuration
 * Second tier keys are matching strings for your Minions
-* Third tier keys match your state files
+* Third tier keys match your `.sls` file namespace
 
    ```bash
    root@salt:/srv/salt# tree
@@ -115,3 +115,4 @@ base:
    * use directory name if it contains a `init.sls` file, e.g. `bash` refers to `bash/init.sls`
    * use front part of `.sls` filenames if file is in root path, e.g. `utils` refers to `utils.sls`
    * use `directory.file` if targeting a deeper `.sls` file, e.g. `ppa.atom` refers to `ppa/atom.sls`
+   http://docs.saltstack.com/en/latest/topics/tutorials/states_pt1.html#sls-file-namespace
