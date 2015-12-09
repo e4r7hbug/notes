@@ -1,0 +1,15 @@
+ansible
+click
+curdling
+django
+fabric
+flask
+ipython
+isort
+pip
+pytest
+pytest-cov
+setuptools
+tornado
+tox
+yapf
